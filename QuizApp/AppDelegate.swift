@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  QuizApp
 //
-//  Created by Hiba Agha on 30.05.23.
+//  Created by Heba Thabet Agha on 01.05.23.
 //
 
 import UIKit
