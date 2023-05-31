@@ -13,7 +13,6 @@
 		CFAB14B92A264AD800AB7D5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAB14B72A264AD800AB7D5D /* Main.storyboard */; };
 		CFAB14BB2A264ADB00AB7D5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFAB14BA2A264ADB00AB7D5D /* Assets.xcassets */; };
 		CFAB14BE2A264ADB00AB7D5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFAB14BC2A264ADB00AB7D5D /* LaunchScreen.storyboard */; };
-		CFAB14C82A264D7000AB7D5D /* FoodBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CFAB14C72A264D7000AB7D5D /* FoodBackground.png */; };
 		CFAB14CA2A26521800AB7D5D /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB14C92A26521800AB7D5D /* Question.swift */; };
 		CFAB14CC2A26523500AB7D5D /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB14CB2A26523500AB7D5D /* QuestionManager.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +26,6 @@
 		CFAB14BA2A264ADB00AB7D5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFAB14BD2A264ADB00AB7D5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFAB14BF2A264ADB00AB7D5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CFAB14C72A264D7000AB7D5D /* FoodBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FoodBackground.png; sourceTree = "<group>"; };
 		CFAB14C92A26521800AB7D5D /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CFAB14CB2A26523500AB7D5D /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,10 +62,9 @@
 			children = (
 				CFAB14B12A264AD800AB7D5D /* AppDelegate.swift */,
 				CFAB14B32A264AD800AB7D5D /* SceneDelegate.swift */,
-				CFAB14B52A264AD800AB7D5D /* ViewController.swift */,
+				CFAB14CE2A273B6400AB7D5D /* Controller */,
 				CFAB14CD2A2655EB00AB7D5D /* Model */,
-				CFAB14B72A264AD800AB7D5D /* Main.storyboard */,
-				CFAB14C72A264D7000AB7D5D /* FoodBackground.png */,
+				CFAB14CF2A273B6C00AB7D5D /* View */,
 				CFAB14BA2A264ADB00AB7D5D /* Assets.xcassets */,
 				CFAB14BC2A264ADB00AB7D5D /* LaunchScreen.storyboard */,
 				CFAB14BF2A264ADB00AB7D5D /* Info.plist */,
@@ -82,6 +79,22 @@
 				CFAB14CB2A26523500AB7D5D /* QuestionManager.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		CFAB14CE2A273B6400AB7D5D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB14B52A264AD800AB7D5D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CFAB14CF2A273B6C00AB7D5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CFAB14B72A264AD800AB7D5D /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFAB14BE2A264ADB00AB7D5D /* LaunchScreen.storyboard in Resources */,
-				CFAB14C82A264D7000AB7D5D /* FoodBackground.png in Resources */,
 				CFAB14BB2A264ADB00AB7D5D /* Assets.xcassets in Resources */,
 				CFAB14B92A264AD800AB7D5D /* Main.storyboard in Resources */,
 			);
